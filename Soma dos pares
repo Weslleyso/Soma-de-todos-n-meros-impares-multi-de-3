@@ -1,0 +1,10 @@
+soma = 0
+for c in range(0,6):
+    op = int(input('Insira um númerO: '))
+    if op %2 == 0:
+        soma = soma + op
+        
+    else: 
+        continue
+print(f'a soma dos pares deu: {soma}')
+        
